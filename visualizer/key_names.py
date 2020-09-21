@@ -85,16 +85,21 @@ _KEY_NAMES = {
     "KC_SLASH": "/",
     "KC_KP_DOT": ".",
 
-    # "KC_LEAD": "Lead",
     "E_NUMBERS": "E|LT3",
     "R_MOUSE": "R|LT4",
+    "O_NUMBERS": "O|LT3",
+    "U_MOUSE": "U|LT4",
+    "R_NUMBERS": "R|LT3",
+    "W_MOUSE": "W|LT4",
     # "LT(MOUSE,KC_R)": "R LT mouse",
-    "TG(BEAKL)": "TG Beakl",
-    "TG(WORKMAN)": "TG Workman",
+    "TG(_1_BEAKL)": "TG1",
+    "TG(_2_WORKMAN)": "TG2",
     "KC_NONUS_BSLASH": "`",
     "KC_AUDIO_MUTE": "Mute",
     "LCTL(KC_B)": "Ctrl + B",
     "ALT_TAB": "⎇ + Tab",
+    "LEFT_NUMBERS": "←|LT3",
+    "RIGHT_MOUSE": "→|LT4",
 }
 
 

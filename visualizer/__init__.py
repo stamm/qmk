@@ -16,7 +16,7 @@ class _Template(object):
             match = re.search(" +{} +".format(i), rendered).group()
             label = "{:^{width}.{width}}".format(key, width=len(match))
             rendered = rendered.replace(match, label)
-        return "{:^{}}\n".format(layer.name.title(), self.width) + rendered
+        return "{:^{}}\n".format(layer.name.title().replace("_", " "), self.width) + rendered
 
 
 class _Rows(object):
